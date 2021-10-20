@@ -8,8 +8,8 @@ import br.com.alura.leilao.PageObject;
 
 public class LeiloesPage extends PageObject {
 
-	private static final String URL_LIST = "http://localhost:8080/leiloes";
-	private static final String URL_FORM = "http://localhost:8080/leiloes/new";
+	private static final String URL_LIST = "http://localhost:8090/leiloes";
+	private static final String URL_FORM = "http://localhost:8090/leiloes/new";
 
 	public LeiloesPage(WebDriver browser) {
 		super(browser);

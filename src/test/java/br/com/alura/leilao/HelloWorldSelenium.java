@@ -10,7 +10,7 @@ public class HelloWorldSelenium {
 	public void helloTest() {
 		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
 		WebDriver browser = new ChromeDriver();
-		browser.navigate().to("http://localhost:8080/leiloes");
+		browser.navigate().to("http://localhost:8090/leiloes");
 		browser.quit();
 	}
 

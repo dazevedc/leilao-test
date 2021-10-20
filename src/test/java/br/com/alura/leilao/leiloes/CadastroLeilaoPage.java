@@ -7,7 +7,7 @@ import br.com.alura.leilao.PageObject;
 
 public class CadastroLeilaoPage extends PageObject {
 
-	private static final String URL_FORM = "http://localhost:8080/leiloes/new";
+	private static final String URL_FORM = "http://localhost:8090/leiloes/new";
 
 	public CadastroLeilaoPage(WebDriver browser) {
 		super(browser);
